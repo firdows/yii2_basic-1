@@ -7,7 +7,7 @@ class HelloController extends \yii\web\Controller{
 
   public function actionIndex(){
     $age = 22;
-    $address = 'นราธิวาส';
+    $address = 'นราธิวาส123';
 
     return $this->render('index',[
       'firstname'=>'มูฮามะฟาอิส',
